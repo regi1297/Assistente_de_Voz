@@ -13,7 +13,7 @@ import os
 # Link direto: https://platform.openai.com/account/api-keys
 
 # Substitua o texto "TODO" por sua API Key da OpenAI, ela será salva como uma variável de ambiente.
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = todo
 
 # Configura a chave de API da OpenAI usando a variável de ambiente 'OPENAI_API_KEY'
 openai.api_key = os.environ.get('OPENAI_API_KEY')
